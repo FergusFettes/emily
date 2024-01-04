@@ -5,12 +5,14 @@
 # Usage: ./create_pdf.sh [list name]
 
 list_name=$1
+# Dir is 'lists' by default, or the second argument
+dir=${2:-lists}
 
 # Check if list name is provided and file is found
 if [ -z "$list_name" ]; then
     echo "No list name provided."
     exit 1
-elif [ ! -f "lists/$list_name.txt" ]; then
+elif [ ! -f "$dir/$list_name.txt" ]; then
     echo "List not found."
     exit 1
 fi
@@ -39,7 +41,7 @@ header-includes:
 EOM
 
 
-list_file="lists/$list_name.txt"
+list_file="$dir/$list_name.txt"
 echo "Creating PDF from $list_file"
 
 # Read the list file line by line
@@ -62,5 +64,5 @@ done < "$list_file"
 
 quarto render "$tmp_file" --to pdf --output "$list_name.pdf"
 
-# Move the file into the `lists` directory
-mv "$list_name.pdf" "lists/$list_name.pdf"
+# Move the file into the directory
+mv "$list_name.pdf" "$dir/$list_name.pdf"

@@ -12,4 +12,12 @@ In the process of reading them, I put some of them into categories. I developed 
 - [Emily](./selected_poems/emily_on_emily.pdf)
 - [Day, Night and Insomnia](./selected_poems/emily_on_day_and_night.pdf)
 
-The raw lists are in [lists](./lists/). A total of 344 poems were selected out of 1775.
+The raw lists are in [lists](./lists/) as lists of poem numbers and as rendered pdfs of those poems. A total of 344 poems were selected out of 1775.
+
+Of the raw lists, I think the following are best:
+- [Images](./lists/Images.pdf)
+- [Madness](./lists/Madness.pdf)
+- [Autobiography](./lists/Autobiography.pdf)
+- [Love](./lists/Love.pdf)
+- [Misc](./lists/Misc.pdf)
+- [Fun](./lists/Fun.pdf)
