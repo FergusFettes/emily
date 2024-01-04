@@ -5,7 +5,7 @@ clear
 
 # Check if the correct number of arguments is given
 if [ "$#" -ne 2 ]; then
-    echo "Usage: ./show_set.sh <tag> <number>"
+    echo "Usage: ./add_to_list.sh <tag> <number>"
     exit 1
 fi
 
