@@ -1,6 +1,6 @@
-# The Complete Works of Emily Dickinson
+# The Complete Poems of Emily Dickinson
 
-This repo contains the complete works of Emily Dickinson in the [poems](./poems/) folder. The poems have been OCR'd and only 344 of them have been manually corrected, so there are likely still many errors. Also, as part of the OCR process I ran them through GPT4 and told it to fix any spelling mistakes, and it seems it has randomly replaced some of the words as well (I noticed around 1 word substitution per 100 poems or so).
+This repo contains the complete poems of Emily Dickinson in the [poems](./poems/) folder. The poems have been OCR'd and only 344 of them have been manually corrected, so there are likely still many errors. Also, as part of the OCR process I ran them through GPT4 and told it to fix any spelling mistakes, and it seems it has randomly replaced some of the words as well (I noticed around 1 word substitution per 100 poems or so).
 
 So, *Caveat Lector*.
 
