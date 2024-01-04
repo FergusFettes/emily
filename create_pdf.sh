@@ -61,3 +61,6 @@ done < "$list_file"
 # Create the PDF. (You have to name the tempfile to x.qmd to render it.)
 
 quarto render "$tmp_file" --to pdf --output "$list_name.pdf"
+
+# Move the file into the `lists` directory
+mv "$list_name.pdf" "lists/$list_name.pdf"
