@@ -21,3 +21,8 @@ Of the raw lists, I think the following are best:
 - [Love](./lists/Love.pdf) (31 poems)
 - [Misc](./lists/Misc.pdf) (39 poems)
 - [Fun](./lists/Fun.pdf) (29 poems)
+
+And by favourites apparently are
+- [Best](./lists/Best.pdf) (47 poems)
+
+though its possible I forgot to double categorize some of them.
